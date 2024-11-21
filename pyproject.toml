@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-poetry-project"
+version = "0.1.0"
+description = "Some dummy project to test the functionality of Poetry package."
+authors = ["Nurlybek Temirbay"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.3"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
